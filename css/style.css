@@ -1,0 +1,147 @@
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* button */
+.btn-orange{
+    background-color: #DA291C !important;
+    color: white !important;
+}
+
+.user-a{
+    position: relative;
+}
+.user-b{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.user-c{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+.user-d{
+    color: black !important;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"]{
+    padding-left: 40px !important;
+}
+textarea{
+    padding-left: 30px !important;
+}
+
+.text-orange{
+    color: #DA291C !important;
+}
+
+.btn-wide{
+    width: 215px !important;
+}
+
+/* MOTHER */
+
+.mother{
+    background-image: url('../images/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1080px;
+}
+
+/* NAVBAR */
+
+nav{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px !important;
+    letter-spacing: 4px;
+}
+
+.nav-item{
+    font-size: 28px;
+}
+
+/* LANDING PAGE */
+
+.landing-page{
+    padding-top: 309px;
+    padding-bottom: 200px;
+}
+
+.btn-orange{
+    color: white !important;
+    background-color: #DA291C !important;
+}
+
+/* MAIN ONE */
+
+.random{
+    border-right: 1px solid black;
+    height: 200px;
+    opacity: 0.2;
+}
+
+/* MAIN TWO */
+.bg-grey{
+    background-color: #f6f6f6;
+}
+
+/* MAIN 3 */
+.bg-main3{
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lukas-blazek-f-TWhXOrLiU-unsplash\ \(1\).png');
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.curly-hair{
+    border: 5px solid white;
+}
+
+.r-quote{
+    padding-top: 170px;
+}
+
+
+/* MAIN FOUR */
+
+.icon{
+    padding: 10px;
+}
+
+
+/* MAIN 5 */
+.bg-main5b{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/601148-PMYU1A-766.png');
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 550px; */
+    margin-top: -90px;
+}
+
+.helen{
+    border: 1px solid white;
+    margin-top: 80px;
+    margin-left: 30px;
+    padding: 15px;
+    margin-bottom: 100px;
+    /* overflow-x: hidden; */
+}
+.helen2{
+    text-align: right !important;
+}
